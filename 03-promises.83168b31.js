@@ -616,5 +616,5 @@ function onSubmitForm(e) {
     }, data.delay);
 }
 
-},{"notiflix/build/notiflix-notify-aio":"gFAGi"}]},["7EQ4p","iozPv"], "iozPv", "parcelRequire7f96")
+},{"notiflix/build/notiflix-notify-aio":"gFAGi"}]},["7EQ4p","iozPv"], "iozPv", "parcelRequiree604")
 
