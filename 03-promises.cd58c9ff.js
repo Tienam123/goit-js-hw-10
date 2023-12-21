@@ -616,6 +616,6 @@ function onSubmitForm(e) {
     }, data.delay);
 }
 
-},{"notiflix/build/notiflix-notify-aio":"eXQLZ"}]},["82bCQ","8tzFL"], "8tzFL", "parcelRequire88e6")
+},{"notiflix/build/notiflix-notify-aio":"eXQLZ"}]},["82bCQ","8tzFL"], "8tzFL", "parcelRequiree604")
 
 //# sourceMappingURL=03-promises.cd58c9ff.js.map

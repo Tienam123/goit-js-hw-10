@@ -632,6 +632,6 @@ function handleClickTab(e) {
     tabContent.innerHTML = data[e.target.dataset.number].name;
 }
 
-},{}]},["b3anl","ebWYT"], "ebWYT", "parcelRequire88e6")
+},{}]},["b3anl","ebWYT"], "ebWYT", "parcelRequiree604")
 
 //# sourceMappingURL=index.739bf03c.js.map
