@@ -632,5 +632,5 @@ function handleClickTab(e) {
     tabContent.innerHTML = data[e.target.dataset.number].name;
 }
 
-},{}]},["6kc6j","1uJD7"], "1uJD7", "parcelRequiree604")
+},{}]},["6kc6j","1uJD7"], "1uJD7", "parcelRequire7f96")
 
