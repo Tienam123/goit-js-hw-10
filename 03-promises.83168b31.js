@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"e7OHa":[function(require,module,exports) {
+})({"7EQ4p":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
-var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "6ef978a552e3b619";
+var HMR_ENV_HASH = "42036d7a98ade5a7";
+module.bundle.HMR_BUNDLE_ID = "ed14809d83168b31";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -574,70 +574,47 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"cYUEh":[function(require,module,exports) {
-var _functions = require("./functions");
-const refs = {
-    timerId: "",
-    buttonStart: document.querySelector("button[data-start]"),
-    buttonStop: document.querySelector("button[data-stop]")
-};
-refs.buttonStart.addEventListener("click", startChangeColors);
-refs.buttonStop.addEventListener("click", stopChangeColors);
-// Запуск скрипта замены цвета фона
-function startChangeColors(e) {
-    refs.timerId = setInterval(()=>{
-        changeColor();
-    }, 1000);
-    refs.buttonStart.disabled = true;
-}
-// Остановка скрипта замены цвета фона
-function stopChangeColors() {
-    clearInterval(refs.timerId);
-    refs.buttonStart.disabled = false;
-}
-// Скрипт для замены цвета фона
-function changeColor() {
-    document.body.style.backgroundColor = (0, _functions.getRandomHexColor)();
-}
-
-},{"./functions":"bfprH"}],"bfprH":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "getRandomHexColor", ()=>getRandomHexColor);
-function getRandomHexColor() {
-    return `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, 0)}`;
-}
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
+},{}],"iozPv":[function(require,module,exports) {
+var _notiflixNotifyAio = require("notiflix/build/notiflix-notify-aio");
+const button = document.querySelector(".form-submit");
+const form = document.querySelector("form");
+form.addEventListener("submit", onSubmitForm);
+function createPromise(position, delay) {
+    const promise = new Promise((resolve, reject)=>{
+        const shouldResolve = Math.random() > 0.3;
+        if (shouldResolve) resolve({
+            position,
+            delay
+        });
+        else reject({
+            position,
+            delay
         });
     });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
+    return promise;
+}
+function onSubmitForm(e) {
+    e.preventDefault();
+    const formData = new FormData(form);
+    let data = {
+        step: Number(formData.get("step")),
+        delay: Number(formData.get("delay")),
+        amount: Number(formData.get("amount")),
+        position: 0
+    };
+    button.disabled = true;
+    setTimeout(()=>{
+        let timeout = setInterval(()=>{
+            data.position++;
+            createPromise(data.position, data.delay).then(({ position, delay })=>(0, _notiflixNotifyAio.Notify).success(`Fulfilled promise ${position} in ${delay}ms`)).catch(({ position, delay })=>(0, _notiflixNotifyAio.Notify).failure(`Rejected promise ${position} in ${delay}ms`));
+            data.delay += data.step;
+            if (data.position >= data.amount) {
+                clearInterval(timeout);
+                button.disabled = !button.disabled;
+            }
+        }, data.step);
+    }, data.delay);
+}
 
-},{}]},["e7OHa","cYUEh"], "cYUEh", "parcelRequiree604")
+},{"notiflix/build/notiflix-notify-aio":"gFAGi"}]},["7EQ4p","iozPv"], "iozPv", "parcelRequiree604")
 
-//# sourceMappingURL=01-color-switcher.52e3b619.js.map

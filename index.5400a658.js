@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"82bCQ":[function(require,module,exports) {
+})({"6kc6j":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
-var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "826d7bc9cd58c9ff";
+var HMR_ENV_HASH = "42036d7a98ade5a7";
+module.bundle.HMR_BUNDLE_ID = "da390bba5400a658";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -574,48 +574,63 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"8tzFL":[function(require,module,exports) {
-var _notiflixNotifyAio = require("notiflix/build/notiflix-notify-aio");
-const button = document.querySelector(".form-submit");
-const form = document.querySelector("form");
-form.addEventListener("submit", onSubmitForm);
-function createPromise(position, delay) {
-    const promise = new Promise((resolve, reject)=>{
-        const shouldResolve = Math.random() > 0.3;
-        if (shouldResolve) resolve({
-            position,
-            delay
-        });
-        else reject({
-            position,
-            delay
-        });
+},{}],"1uJD7":[function(require,module,exports) {
+const data = [
+    {
+        name: [
+            `<ul>
+          <li>\u{421}\u{43E}\u{437}\u{434}\u{430}\u{43D} \u{440}\u{435}\u{43F}\u{43E}\u{437}\u{438}\u{442}\u{43E}\u{440}\u{438}\u{439} goit-js-hw-07</li>
+          <li>\u{41F}\u{440}\u{438} \u{441}\u{434}\u{430}\u{447}\u{435} \u{434}\u{43E}\u{43C}\u{430}\u{448}\u{43D}\u{435}\u{439} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B} \u{435}\u{441}\u{442}\u{44C} \u{434}\u{432}\u{435} \u{441}\u{441}\u{44B}\u{43B}\u{43A}\u{438}: \u{43D}\u{430} \u{438}\u{441}\u{445}\u{43E}\u{434}\u{43D}\u{44B}\u{435} \u{444}\u{430}\u{439}\u{43B}\u{44B} \u{438} \u{440}\u{430}\u{431}\u{43E}\u{447}\u{443}\u{44E} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{43D}\u{430} GitHub Pages.</li>
+          <li>\u{414}\u{43E}\u{431}\u{430}\u{432}\u{44C} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{443} SimpleLightbox \u{43A}\u{430}\u{43A} \u{437}\u{430}\u{432}\u{438}\u{441}\u{438}\u{43C}\u{43E}\u{441}\u{442}\u{44C} \u{43F}\u{440}\u{43E}\u{435}\u{43A}\u{442}\u{430} \u{438}\u{441}\u{43F}\u{43E}\u{43B}\u{44C}\u{437}\u{443}\u{44F} npm (\u{441}\u{441}\u{44B}\u{43B}\u{43A}\u{430} \u{43D}\u{430} CDN \u{438}\u{437} \u{442}\u{432}\u{43E}\u{435}\u{439} \u{43F}\u{440}\u{43E}\u{448}\u{43B}\u{43E}\u{439} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B} \u{431}\u{43E}\u{43B}\u{44C}\u{448}\u{435} \u{43D}\u{435} \u{43D}\u{443}\u{436}\u{43D}\u{430}).</li>
+          <li>\u{418}\u{441}\u{43F}\u{43E}\u{43B}\u{44C}\u{437}\u{443}\u{439} \u{441}\u{432}\u{43E}\u{439} JavaScript \u{43A}\u{43E}\u{434} \u{438}\u{437} \u{43F}\u{440}\u{435}\u{434}\u{44B}\u{434}\u{443}\u{449}\u{435}\u{439} \u{434}\u{43E}\u{43C}\u{430}\u{448}\u{43D}\u{435}\u{439} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B}, \u{43D}\u{43E} \u{432}\u{44B}\u{43F}\u{43E}\u{43B}\u{43D}\u{438} \u{440}\u{435}\u{444}\u{430}\u{43A}\u{442}\u{43E}\u{440}\u{438}\u{43D}\u{433} \u{441} \u{443}\u{447}\u{435}\u{442}\u{43E}\u{43C} \u{442}\u{43E}\u{433}\u{43E}, \u{447}\u{442}\u{43E} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{430} \u{431}\u{44B}\u{43B}\u{430} \u{443}\u{441}\u{442}\u{430}\u{43D}\u{43E}\u{432}\u{43B}\u{435}\u{43D}\u{430} \u{447}\u{435}\u{440}\u{435}\u{437} npm (\u{441}\u{438}\u{43D}\u{442}\u{430}\u{43A}\u{441}\u{438}\u{441} import/export).</li>
+          <li>\u{41A}\u{43E}\u{434} \u{43E}\u{442}\u{444}\u{43E}\u{440}\u{43C}\u{430}\u{442}\u{438}\u{440}\u{43E}\u{432}\u{430}\u{43D} Prettier</li>
+          <li><a href='01-color-switcher.html'>\u{41F}\u{435}\u{440}\u{435}\u{439}\u{442}\u{438} \u{43D}\u{430} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{432}\u{44B}\u{43F}\u{43E}\u{43B}\u{43D}\u{435}\u{43D}\u{438}\u{44F} \u{437}\u{430}\u{434}\u{430}\u{43D}\u{438}\u{44F}</a></li>
+        </ul>`
+        ]
+    },
+    {
+        name: [
+            `<ul>
+           <li>\u{421}\u{43E}\u{437}\u{434}\u{430}\u{43D} \u{440}\u{435}\u{43F}\u{43E}\u{437}\u{438}\u{442}\u{43E}\u{440}\u{438}\u{439} goit-js-hw-07</li>
+          <li>\u{41F}\u{440}\u{438} \u{441}\u{434}\u{430}\u{447}\u{435} \u{434}\u{43E}\u{43C}\u{430}\u{448}\u{43D}\u{435}\u{439} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B} \u{435}\u{441}\u{442}\u{44C} \u{434}\u{432}\u{435} \u{441}\u{441}\u{44B}\u{43B}\u{43A}\u{438}: \u{43D}\u{430} \u{438}\u{441}\u{445}\u{43E}\u{434}\u{43D}\u{44B}\u{435} \u{444}\u{430}\u{439}\u{43B}\u{44B} \u{438} \u{440}\u{430}\u{431}\u{43E}\u{447}\u{443}\u{44E} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{43D}\u{430} GitHub Pages.</li>
+          <li>\u{41E}\u{437}\u{43D}\u{430}\u{43A}\u{43E}\u{43C}\u{44C}\u{441}\u{44F} \u{441} \u{434}\u{43E}\u{43A}\u{443}\u{43C}\u{435}\u{43D}\u{442}\u{430}\u{446}\u{438}\u{435}\u{439} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{438} Vimeo \u{43F}\u{43B}\u{435}\u{435}\u{440}\u{430}.</li>
+          <li>\u{414}\u{43E}\u{431}\u{430}\u{432}\u{44C} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{443} \u{43A}\u{430}\u{43A} \u{437}\u{430}\u{432}\u{438}\u{441}\u{438}\u{43C}\u{43E}\u{441}\u{442}\u{44C} \u{43F}\u{440}\u{43E}\u{435}\u{43A}\u{442}\u{430} \u{447}\u{435}\u{440}\u{435}\u{437} npm</li>
+          <li>\u{418}\u{43D}\u{438}\u{446}\u{438}\u{430}\u{43B}\u{438}\u{437}\u{438}\u{440}\u{443}\u{439} \u{43F}\u{43B}\u{435}\u{435}\u{440} \u{432} \u{444}\u{430}\u{439}\u{43B}\u{435} \u{441}\u{43A}\u{440}\u{438}\u{43F}\u{442}\u{430} \u{43A}\u{430}\u{43A} \u{44D}\u{442}\u{43E} \u{43E}\u{43F}\u{438}\u{441}\u{430}\u{43D}\u{43E} \u{432} \u{441}\u{435}\u{43A}\u{446}\u{438}\u{438} pre-existing player, \u{43D}\u{43E} \u{443}\u{447}\u{442}\u{438} \u{447}\u{442}\u{43E} \u{443} \u{442}\u{435}\u{431}\u{44F} \u{43F}\u{43B}\u{435}\u{435}\u{440} \u{434}\u{43E}\u{431}\u{430}\u{432}\u{43B}\u{435}\u{43D} \u{43A}\u{430}\u{43A} npm \u{43F}\u{430}\u{43A}\u{435}\u{442}, \u{430} \u{43D}\u{435} \u{447}\u{435}\u{440}\u{435}\u{437} CDN.</li>
+           <li>\u{420}\u{430}\u{437}\u{431}\u{435}\u{440}\u{438} \u{434}\u{43E}\u{43A}\u{443}\u{43C}\u{435}\u{43D}\u{442}\u{430}\u{446}\u{438}\u{44E} \u{43C}\u{435}\u{442}\u{43E}\u{434}\u{430} on() \u{438} \u{43D}\u{430}\u{447}\u{43D}\u{438} \u{43E}\u{442}\u{441}\u{43B}\u{435}\u{436}\u{438}\u{432}\u{430}\u{442}\u{44C} \u{441}\u{43E}\u{431}\u{44B}\u{442}\u{438}\u{435} timeupdate - \u{43E}\u{431}\u{43D}\u{43E}\u{432}\u{43B}\u{435}\u{43D}\u{438}\u{435} \u{432}\u{440}\u{435}\u{43C}\u{435}\u{43D}\u{438} \u{432}\u{43E}\u{441}\u{43F}\u{440}\u{43E}\u{438}\u{437}\u{432}\u{435}\u{434}\u{435}\u{43D}\u{438}\u{44F}.</li>
+            <li>\u{421}\u{43E}\u{445}\u{440}\u{430}\u{43D}\u{44F}\u{439} \u{432}\u{440}\u{435}\u{43C}\u{44F} \u{432}\u{43E}\u{441}\u{43F}\u{440}\u{43E}\u{438}\u{437}\u{432}\u{435}\u{434}\u{435}\u{43D}\u{438}\u{44F} \u{432} \u{43B}\u{43E}\u{43A}\u{430}\u{43B}\u{44C}\u{43D}\u{43E}\u{435} \u{445}\u{440}\u{430}\u{43D}\u{438}\u{43B}\u{438}\u{449}\u{435}. \u{41F}\u{443}\u{441}\u{442}\u{44C} \u{43A}\u{43B}\u{44E}\u{447}\u{43E}\u{43C} \u{434}\u{43B}\u{44F} \u{445}\u{440}\u{430}\u{43D}\u{438}\u{43B}\u{438}\u{449}\u{430} \u{431}\u{443}\u{434}\u{435}\u{442} \u{441}\u{442}\u{440}\u{43E}\u{43A}\u{430} "videoplayer-current-time".</li>
+          <li>\u{41F}\u{440}\u{438} \u{43F}\u{435}\u{440}\u{435}\u{437}\u{430}\u{433}\u{440}\u{443}\u{437}\u{43A}\u{435} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{44B} \u{432}\u{43E}\u{441}\u{43F}\u{43E}\u{43B}\u{44C}\u{437}\u{443}\u{439}\u{441}\u{44F} \u{43C}\u{435}\u{442}\u{43E}\u{434}\u{43E}\u{43C} setCurrentTime() \u{434}\u{43B}\u{44F} \u{442}\u{43E}\u{433}\u{43E} \u{447}\u{442}\u{43E}\u{431}\u{44B} \u{432}\u{43E}\u{437}\u{43E}\u{431}\u{43D}\u{43E}\u{432}\u{438}\u{442}\u{44C} \u{432}\u{43E}\u{441}\u{43F}\u{440}\u{43E}\u{438}\u{437}\u{432}\u{435}\u{434}\u{435}\u{43D}\u{438}\u{435} \u{441} \u{441}\u{43E}\u{445}\u{440}\u{430}\u{43D}\u{435}\u{43D}\u{43D}\u{43E}\u{439} \u{43F}\u{43E}\u{437}\u{438}\u{446}\u{438}\u{438}.</li>
+          <li>\u{414}\u{43E}\u{431}\u{430}\u{432}\u{44C} \u{432} \u{43F}\u{440}\u{43E}\u{435}\u{43A}\u{442} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{443} lodash.throttle \u{438} \u{441}\u{434}\u{435}\u{43B}\u{430}\u{439} \u{442}\u{430}\u{43A}, \u{447}\u{442}\u{43E}\u{431}\u{44B} \u{432}\u{440}\u{435}\u{43C}\u{44F} \u{432}\u{43E}\u{441}\u{43F}\u{440}\u{43E}\u{438}\u{437}\u{432}\u{435}\u{434}\u{435}\u{43D}\u{438}\u{44F} \u{43E}\u{431}\u{43D}\u{43E}\u{432}\u{43B}\u{44F}\u{43B}\u{43E}\u{441}\u{44C} \u{432} \u{445}\u{440}\u{430}\u{43D}\u{438}\u{43B}\u{438}\u{449}\u{435} \u{43D}\u{435} \u{447}\u{430}\u{449}\u{435} \u{447}\u{435}\u{43C} \u{440}\u{430}\u{437} \u{432} \u{441}\u{435}\u{43A}\u{443}\u{43D}\u{434}\u{443}.</li>
+          <li>\u{41A}\u{43E}\u{434} \u{43E}\u{442}\u{444}\u{43E}\u{440}\u{43C}\u{430}\u{442}\u{438}\u{440}\u{43E}\u{432}\u{430}\u{43D} Prettier</li>
+          <li><a href='./02-timer.html'>\u{41F}\u{435}\u{440}\u{435}\u{439}\u{442}\u{438} \u{43D}\u{430} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{432}\u{44B}\u{43F}\u{43E}\u{43B}\u{43D}\u{435}\u{43D}\u{438}\u{44F} \u{437}\u{430}\u{434}\u{430}\u{43D}\u{438}\u{44F}</a></li>
+        </ul>`
+        ]
+    },
+    {
+        name: [
+            `<ul>
+          <li>\u{421}\u{43E}\u{437}\u{434}\u{430}\u{43D} \u{440}\u{435}\u{43F}\u{43E}\u{437}\u{438}\u{442}\u{43E}\u{440}\u{438}\u{439} goit-js-hw-07</li>
+          <li>\u{41F}\u{440}\u{438} \u{441}\u{434}\u{430}\u{447}\u{435} \u{434}\u{43E}\u{43C}\u{430}\u{448}\u{43D}\u{435}\u{439} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B} \u{435}\u{441}\u{442}\u{44C} \u{434}\u{432}\u{435} \u{441}\u{441}\u{44B}\u{43B}\u{43A}\u{438}: \u{43D}\u{430} \u{438}\u{441}\u{445}\u{43E}\u{434}\u{43D}\u{44B}\u{435} \u{444}\u{430}\u{439}\u{43B}\u{44B} \u{438} \u{440}\u{430}\u{431}\u{43E}\u{447}\u{443}\u{44E} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{43D}\u{430} GitHub Pages.</li>
+          <li>\u{421}\u{434}\u{435}\u{43B}\u{430}\u{439} \u{442}\u{430}\u{43A}\u{443}\u{44E} \u{436}\u{435} \u{433}\u{430}\u{43B}\u{435}\u{440}\u{435}\u{44E} \u{43A}\u{430}\u{43A} \u{432} \u{43F}\u{435}\u{440}\u{432}\u{43E}\u{43C} \u{437}\u{430}\u{434}\u{430}\u{43D}\u{438}\u{438}, \u{43D}\u{43E} \u{438}\u{441}\u{43F}\u{43E}\u{43B}\u{44C}\u{437}\u{443}\u{44F} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{443} SimpleLightbox</li>
+          <li>\u{43A}\u{43E}\u{442}\u{43E}\u{440}\u{430}\u{44F} \u{432}\u{43E}\u{437}\u{44C}\u{43C}\u{435}\u{442} \u{43D}\u{430} \u{441}\u{435}\u{431}\u{44F} \u{43E}\u{431}\u{440}\u{430}\u{431}\u{43E}\u{442}\u{43A}\u{443} \u{43A}\u{43B}\u{438}\u{43A}\u{43E}\u{432} \u{43F}\u{43E} \u{438}\u{437}\u{43E}\u{431}\u{440}\u{430}\u{436}\u{435}\u{43D}\u{438}\u{44F}\u{43C}, \u{43E}\u{442}\u{43A}\u{440}\u{44B}\u{442}\u{438}\u{435} \u{438} \u{437}\u{430}\u{43A}\u{440}\u{44B}\u{442}\u{438}\u{435} \u{43C}\u{43E}\u{434}\u{430}\u{43B}\u{44C}\u{43D}\u{43E}\u{433}\u{43E} \u{43E}\u{43A}\u{43D}\u{430}</li>
+          <li>A \u{442}\u{430}\u{43A}\u{436}\u{435} \u{43F}\u{440}\u{43E}\u{43B}\u{438}\u{441}\u{442}\u{44B}\u{432}\u{430}\u{43D}\u{438}\u{435} \u{438}\u{437}\u{43E}\u{431}\u{440}\u{430}\u{436}\u{435}\u{43D}\u{438}\u{439} \u{43F}\u{440}\u{438} \u{43F}\u{43E}\u{43C}\u{43E}\u{449}\u{438} \u{43A}\u{43B}\u{430}\u{432}\u{438}\u{430}\u{442}\u{443}\u{440}\u{44B}</li>
+          <li>\u{41F}\u{43E}\u{441}\u{43C}\u{43E}\u{442}\u{440}\u{438} \u{434}\u{435}\u{43C}\u{43E} \u{432}\u{438}\u{434}\u{435}\u{43E} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B} \u{433}\u{430}\u{43B}\u{435}\u{440}\u{435}\u{438} \u{441} \u{43F}\u{43E}\u{434}\u{43A}\u{43B}\u{44E}\u{447}\u{435}\u{43D}\u{43D}\u{43E}\u{439} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{43E}\u{439}.</li>
+          <li>\u{41F}\u{43E}\u{441}\u{43B}\u{435} \u{447}\u{435}\u{433}\u{43E} \u{432}\u{441}\u{442}\u{430}\u{432}\u{438}\u{442} \u{432}\u{441}\u{435} li \u{437}\u{430} \u{43E}\u{434}\u{43D}\u{443} \u{43E}\u{43F}\u{435}\u{440}\u{430}\u{446}\u{438}\u{44E} \u{432} \u{441}\u{43F}\u{438}\u{441}\u{43E}\u{43A} ul#ingredients.</li>
+          <li>\u{41A}\u{43E}\u{434} \u{43E}\u{442}\u{444}\u{43E}\u{440}\u{43C}\u{430}\u{442}\u{438}\u{440}\u{43E}\u{432}\u{430}\u{43D} Prettier</li>
+          <li><a href='03-promises.html'>\u{41F}\u{435}\u{440}\u{435}\u{439}\u{442}\u{438} \u{43D}\u{430} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{432}\u{44B}\u{43F}\u{43E}\u{43B}\u{43D}\u{435}\u{43D}\u{438}\u{44F} \u{437}\u{430}\u{434}\u{430}\u{43D}\u{438}\u{44F}</a></li>
+        </ul>`
+        ]
+    }
+];
+const buttons = document.querySelectorAll(".btn-resources");
+const tabContent = document.querySelector("#tab-content");
+buttons.forEach((el)=>el.addEventListener("click", handleClickTab));
+function handleClickTab(e) {
+    buttons.forEach((el, index)=>{
+        el.classList.remove("active");
     });
-    return promise;
-}
-function onSubmitForm(e) {
-    e.preventDefault();
-    const formData = new FormData(form);
-    let data = {
-        step: Number(formData.get("step")),
-        delay: Number(formData.get("delay")),
-        amount: Number(formData.get("amount")),
-        position: 0
-    };
-    button.disabled = true;
-    setTimeout(()=>{
-        let timeout = setInterval(()=>{
-            data.position++;
-            createPromise(data.position, data.delay).then(({ position, delay })=>(0, _notiflixNotifyAio.Notify).success(`Fulfilled promise ${position} in ${delay}ms`)).catch(({ position, delay })=>(0, _notiflixNotifyAio.Notify).failure(`Rejected promise ${position} in ${delay}ms`));
-            data.delay += data.step;
-            if (data.position >= data.amount) {
-                clearInterval(timeout);
-                button.disabled = !button.disabled;
-            }
-        }, data.step);
-    }, data.delay);
+    e.target.classList.add("active");
+    tabContent.innerHTML = data[e.target.dataset.number].name;
 }
 
-},{"notiflix/build/notiflix-notify-aio":"eXQLZ"}]},["82bCQ","8tzFL"], "8tzFL", "parcelRequiree604")
+},{}]},["6kc6j","1uJD7"], "1uJD7", "parcelRequiree604")
 
-//# sourceMappingURL=03-promises.cd58c9ff.js.map

@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"b3anl":[function(require,module,exports) {
+})({"6aY5a":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
-var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "ba60c367739bf03c";
+var HMR_ENV_HASH = "42036d7a98ade5a7";
+module.bundle.HMR_BUNDLE_ID = "14c71df25cf6fe72";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -574,64 +574,69 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"ebWYT":[function(require,module,exports) {
-const data = [
-    {
-        name: [
-            `<ul>
-          <li>\u{421}\u{43E}\u{437}\u{434}\u{430}\u{43D} \u{440}\u{435}\u{43F}\u{43E}\u{437}\u{438}\u{442}\u{43E}\u{440}\u{438}\u{439} goit-js-hw-07</li>
-          <li>\u{41F}\u{440}\u{438} \u{441}\u{434}\u{430}\u{447}\u{435} \u{434}\u{43E}\u{43C}\u{430}\u{448}\u{43D}\u{435}\u{439} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B} \u{435}\u{441}\u{442}\u{44C} \u{434}\u{432}\u{435} \u{441}\u{441}\u{44B}\u{43B}\u{43A}\u{438}: \u{43D}\u{430} \u{438}\u{441}\u{445}\u{43E}\u{434}\u{43D}\u{44B}\u{435} \u{444}\u{430}\u{439}\u{43B}\u{44B} \u{438} \u{440}\u{430}\u{431}\u{43E}\u{447}\u{443}\u{44E} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{43D}\u{430} GitHub Pages.</li>
-          <li>\u{414}\u{43E}\u{431}\u{430}\u{432}\u{44C} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{443} SimpleLightbox \u{43A}\u{430}\u{43A} \u{437}\u{430}\u{432}\u{438}\u{441}\u{438}\u{43C}\u{43E}\u{441}\u{442}\u{44C} \u{43F}\u{440}\u{43E}\u{435}\u{43A}\u{442}\u{430} \u{438}\u{441}\u{43F}\u{43E}\u{43B}\u{44C}\u{437}\u{443}\u{44F} npm (\u{441}\u{441}\u{44B}\u{43B}\u{43A}\u{430} \u{43D}\u{430} CDN \u{438}\u{437} \u{442}\u{432}\u{43E}\u{435}\u{439} \u{43F}\u{440}\u{43E}\u{448}\u{43B}\u{43E}\u{439} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B} \u{431}\u{43E}\u{43B}\u{44C}\u{448}\u{435} \u{43D}\u{435} \u{43D}\u{443}\u{436}\u{43D}\u{430}).</li>
-          <li>\u{418}\u{441}\u{43F}\u{43E}\u{43B}\u{44C}\u{437}\u{443}\u{439} \u{441}\u{432}\u{43E}\u{439} JavaScript \u{43A}\u{43E}\u{434} \u{438}\u{437} \u{43F}\u{440}\u{435}\u{434}\u{44B}\u{434}\u{443}\u{449}\u{435}\u{439} \u{434}\u{43E}\u{43C}\u{430}\u{448}\u{43D}\u{435}\u{439} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B}, \u{43D}\u{43E} \u{432}\u{44B}\u{43F}\u{43E}\u{43B}\u{43D}\u{438} \u{440}\u{435}\u{444}\u{430}\u{43A}\u{442}\u{43E}\u{440}\u{438}\u{43D}\u{433} \u{441} \u{443}\u{447}\u{435}\u{442}\u{43E}\u{43C} \u{442}\u{43E}\u{433}\u{43E}, \u{447}\u{442}\u{43E} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{430} \u{431}\u{44B}\u{43B}\u{430} \u{443}\u{441}\u{442}\u{430}\u{43D}\u{43E}\u{432}\u{43B}\u{435}\u{43D}\u{430} \u{447}\u{435}\u{440}\u{435}\u{437} npm (\u{441}\u{438}\u{43D}\u{442}\u{430}\u{43A}\u{441}\u{438}\u{441} import/export).</li>
-          <li>\u{41A}\u{43E}\u{434} \u{43E}\u{442}\u{444}\u{43E}\u{440}\u{43C}\u{430}\u{442}\u{438}\u{440}\u{43E}\u{432}\u{430}\u{43D} Prettier</li>
-          <li><a href='01-color-switcher.html'>\u{41F}\u{435}\u{440}\u{435}\u{439}\u{442}\u{438} \u{43D}\u{430} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{432}\u{44B}\u{43F}\u{43E}\u{43B}\u{43D}\u{435}\u{43D}\u{438}\u{44F} \u{437}\u{430}\u{434}\u{430}\u{43D}\u{438}\u{44F}</a></li>
-        </ul>`
-        ]
-    },
-    {
-        name: [
-            `<ul>
-           <li>\u{421}\u{43E}\u{437}\u{434}\u{430}\u{43D} \u{440}\u{435}\u{43F}\u{43E}\u{437}\u{438}\u{442}\u{43E}\u{440}\u{438}\u{439} goit-js-hw-07</li>
-          <li>\u{41F}\u{440}\u{438} \u{441}\u{434}\u{430}\u{447}\u{435} \u{434}\u{43E}\u{43C}\u{430}\u{448}\u{43D}\u{435}\u{439} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B} \u{435}\u{441}\u{442}\u{44C} \u{434}\u{432}\u{435} \u{441}\u{441}\u{44B}\u{43B}\u{43A}\u{438}: \u{43D}\u{430} \u{438}\u{441}\u{445}\u{43E}\u{434}\u{43D}\u{44B}\u{435} \u{444}\u{430}\u{439}\u{43B}\u{44B} \u{438} \u{440}\u{430}\u{431}\u{43E}\u{447}\u{443}\u{44E} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{43D}\u{430} GitHub Pages.</li>
-          <li>\u{41E}\u{437}\u{43D}\u{430}\u{43A}\u{43E}\u{43C}\u{44C}\u{441}\u{44F} \u{441} \u{434}\u{43E}\u{43A}\u{443}\u{43C}\u{435}\u{43D}\u{442}\u{430}\u{446}\u{438}\u{435}\u{439} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{438} Vimeo \u{43F}\u{43B}\u{435}\u{435}\u{440}\u{430}.</li>
-          <li>\u{414}\u{43E}\u{431}\u{430}\u{432}\u{44C} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{443} \u{43A}\u{430}\u{43A} \u{437}\u{430}\u{432}\u{438}\u{441}\u{438}\u{43C}\u{43E}\u{441}\u{442}\u{44C} \u{43F}\u{440}\u{43E}\u{435}\u{43A}\u{442}\u{430} \u{447}\u{435}\u{440}\u{435}\u{437} npm</li>
-          <li>\u{418}\u{43D}\u{438}\u{446}\u{438}\u{430}\u{43B}\u{438}\u{437}\u{438}\u{440}\u{443}\u{439} \u{43F}\u{43B}\u{435}\u{435}\u{440} \u{432} \u{444}\u{430}\u{439}\u{43B}\u{435} \u{441}\u{43A}\u{440}\u{438}\u{43F}\u{442}\u{430} \u{43A}\u{430}\u{43A} \u{44D}\u{442}\u{43E} \u{43E}\u{43F}\u{438}\u{441}\u{430}\u{43D}\u{43E} \u{432} \u{441}\u{435}\u{43A}\u{446}\u{438}\u{438} pre-existing player, \u{43D}\u{43E} \u{443}\u{447}\u{442}\u{438} \u{447}\u{442}\u{43E} \u{443} \u{442}\u{435}\u{431}\u{44F} \u{43F}\u{43B}\u{435}\u{435}\u{440} \u{434}\u{43E}\u{431}\u{430}\u{432}\u{43B}\u{435}\u{43D} \u{43A}\u{430}\u{43A} npm \u{43F}\u{430}\u{43A}\u{435}\u{442}, \u{430} \u{43D}\u{435} \u{447}\u{435}\u{440}\u{435}\u{437} CDN.</li>
-           <li>\u{420}\u{430}\u{437}\u{431}\u{435}\u{440}\u{438} \u{434}\u{43E}\u{43A}\u{443}\u{43C}\u{435}\u{43D}\u{442}\u{430}\u{446}\u{438}\u{44E} \u{43C}\u{435}\u{442}\u{43E}\u{434}\u{430} on() \u{438} \u{43D}\u{430}\u{447}\u{43D}\u{438} \u{43E}\u{442}\u{441}\u{43B}\u{435}\u{436}\u{438}\u{432}\u{430}\u{442}\u{44C} \u{441}\u{43E}\u{431}\u{44B}\u{442}\u{438}\u{435} timeupdate - \u{43E}\u{431}\u{43D}\u{43E}\u{432}\u{43B}\u{435}\u{43D}\u{438}\u{435} \u{432}\u{440}\u{435}\u{43C}\u{435}\u{43D}\u{438} \u{432}\u{43E}\u{441}\u{43F}\u{440}\u{43E}\u{438}\u{437}\u{432}\u{435}\u{434}\u{435}\u{43D}\u{438}\u{44F}.</li>
-            <li>\u{421}\u{43E}\u{445}\u{440}\u{430}\u{43D}\u{44F}\u{439} \u{432}\u{440}\u{435}\u{43C}\u{44F} \u{432}\u{43E}\u{441}\u{43F}\u{440}\u{43E}\u{438}\u{437}\u{432}\u{435}\u{434}\u{435}\u{43D}\u{438}\u{44F} \u{432} \u{43B}\u{43E}\u{43A}\u{430}\u{43B}\u{44C}\u{43D}\u{43E}\u{435} \u{445}\u{440}\u{430}\u{43D}\u{438}\u{43B}\u{438}\u{449}\u{435}. \u{41F}\u{443}\u{441}\u{442}\u{44C} \u{43A}\u{43B}\u{44E}\u{447}\u{43E}\u{43C} \u{434}\u{43B}\u{44F} \u{445}\u{440}\u{430}\u{43D}\u{438}\u{43B}\u{438}\u{449}\u{430} \u{431}\u{443}\u{434}\u{435}\u{442} \u{441}\u{442}\u{440}\u{43E}\u{43A}\u{430} "videoplayer-current-time".</li>
-          <li>\u{41F}\u{440}\u{438} \u{43F}\u{435}\u{440}\u{435}\u{437}\u{430}\u{433}\u{440}\u{443}\u{437}\u{43A}\u{435} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{44B} \u{432}\u{43E}\u{441}\u{43F}\u{43E}\u{43B}\u{44C}\u{437}\u{443}\u{439}\u{441}\u{44F} \u{43C}\u{435}\u{442}\u{43E}\u{434}\u{43E}\u{43C} setCurrentTime() \u{434}\u{43B}\u{44F} \u{442}\u{43E}\u{433}\u{43E} \u{447}\u{442}\u{43E}\u{431}\u{44B} \u{432}\u{43E}\u{437}\u{43E}\u{431}\u{43D}\u{43E}\u{432}\u{438}\u{442}\u{44C} \u{432}\u{43E}\u{441}\u{43F}\u{440}\u{43E}\u{438}\u{437}\u{432}\u{435}\u{434}\u{435}\u{43D}\u{438}\u{435} \u{441} \u{441}\u{43E}\u{445}\u{440}\u{430}\u{43D}\u{435}\u{43D}\u{43D}\u{43E}\u{439} \u{43F}\u{43E}\u{437}\u{438}\u{446}\u{438}\u{438}.</li>
-          <li>\u{414}\u{43E}\u{431}\u{430}\u{432}\u{44C} \u{432} \u{43F}\u{440}\u{43E}\u{435}\u{43A}\u{442} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{443} lodash.throttle \u{438} \u{441}\u{434}\u{435}\u{43B}\u{430}\u{439} \u{442}\u{430}\u{43A}, \u{447}\u{442}\u{43E}\u{431}\u{44B} \u{432}\u{440}\u{435}\u{43C}\u{44F} \u{432}\u{43E}\u{441}\u{43F}\u{440}\u{43E}\u{438}\u{437}\u{432}\u{435}\u{434}\u{435}\u{43D}\u{438}\u{44F} \u{43E}\u{431}\u{43D}\u{43E}\u{432}\u{43B}\u{44F}\u{43B}\u{43E}\u{441}\u{44C} \u{432} \u{445}\u{440}\u{430}\u{43D}\u{438}\u{43B}\u{438}\u{449}\u{435} \u{43D}\u{435} \u{447}\u{430}\u{449}\u{435} \u{447}\u{435}\u{43C} \u{440}\u{430}\u{437} \u{432} \u{441}\u{435}\u{43A}\u{443}\u{43D}\u{434}\u{443}.</li>
-          <li>\u{41A}\u{43E}\u{434} \u{43E}\u{442}\u{444}\u{43E}\u{440}\u{43C}\u{430}\u{442}\u{438}\u{440}\u{43E}\u{432}\u{430}\u{43D} Prettier</li>
-          <li><a href='02-timer.html'>\u{41F}\u{435}\u{440}\u{435}\u{439}\u{442}\u{438} \u{43D}\u{430} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{432}\u{44B}\u{43F}\u{43E}\u{43B}\u{43D}\u{435}\u{43D}\u{438}\u{44F} \u{437}\u{430}\u{434}\u{430}\u{43D}\u{438}\u{44F}</a></li>
-        </ul>`
-        ]
-    },
-    {
-        name: [
-            `<ul>
-          <li>\u{421}\u{43E}\u{437}\u{434}\u{430}\u{43D} \u{440}\u{435}\u{43F}\u{43E}\u{437}\u{438}\u{442}\u{43E}\u{440}\u{438}\u{439} goit-js-hw-07</li>
-          <li>\u{41F}\u{440}\u{438} \u{441}\u{434}\u{430}\u{447}\u{435} \u{434}\u{43E}\u{43C}\u{430}\u{448}\u{43D}\u{435}\u{439} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B} \u{435}\u{441}\u{442}\u{44C} \u{434}\u{432}\u{435} \u{441}\u{441}\u{44B}\u{43B}\u{43A}\u{438}: \u{43D}\u{430} \u{438}\u{441}\u{445}\u{43E}\u{434}\u{43D}\u{44B}\u{435} \u{444}\u{430}\u{439}\u{43B}\u{44B} \u{438} \u{440}\u{430}\u{431}\u{43E}\u{447}\u{443}\u{44E} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{43D}\u{430} GitHub Pages.</li>
-          <li>\u{421}\u{434}\u{435}\u{43B}\u{430}\u{439} \u{442}\u{430}\u{43A}\u{443}\u{44E} \u{436}\u{435} \u{433}\u{430}\u{43B}\u{435}\u{440}\u{435}\u{44E} \u{43A}\u{430}\u{43A} \u{432} \u{43F}\u{435}\u{440}\u{432}\u{43E}\u{43C} \u{437}\u{430}\u{434}\u{430}\u{43D}\u{438}\u{438}, \u{43D}\u{43E} \u{438}\u{441}\u{43F}\u{43E}\u{43B}\u{44C}\u{437}\u{443}\u{44F} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{443} SimpleLightbox</li>
-          <li>\u{43A}\u{43E}\u{442}\u{43E}\u{440}\u{430}\u{44F} \u{432}\u{43E}\u{437}\u{44C}\u{43C}\u{435}\u{442} \u{43D}\u{430} \u{441}\u{435}\u{431}\u{44F} \u{43E}\u{431}\u{440}\u{430}\u{431}\u{43E}\u{442}\u{43A}\u{443} \u{43A}\u{43B}\u{438}\u{43A}\u{43E}\u{432} \u{43F}\u{43E} \u{438}\u{437}\u{43E}\u{431}\u{440}\u{430}\u{436}\u{435}\u{43D}\u{438}\u{44F}\u{43C}, \u{43E}\u{442}\u{43A}\u{440}\u{44B}\u{442}\u{438}\u{435} \u{438} \u{437}\u{430}\u{43A}\u{440}\u{44B}\u{442}\u{438}\u{435} \u{43C}\u{43E}\u{434}\u{430}\u{43B}\u{44C}\u{43D}\u{43E}\u{433}\u{43E} \u{43E}\u{43A}\u{43D}\u{430}</li>
-          <li>A \u{442}\u{430}\u{43A}\u{436}\u{435} \u{43F}\u{440}\u{43E}\u{43B}\u{438}\u{441}\u{442}\u{44B}\u{432}\u{430}\u{43D}\u{438}\u{435} \u{438}\u{437}\u{43E}\u{431}\u{440}\u{430}\u{436}\u{435}\u{43D}\u{438}\u{439} \u{43F}\u{440}\u{438} \u{43F}\u{43E}\u{43C}\u{43E}\u{449}\u{438} \u{43A}\u{43B}\u{430}\u{432}\u{438}\u{430}\u{442}\u{443}\u{440}\u{44B}</li>
-          <li>\u{41F}\u{43E}\u{441}\u{43C}\u{43E}\u{442}\u{440}\u{438} \u{434}\u{435}\u{43C}\u{43E} \u{432}\u{438}\u{434}\u{435}\u{43E} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B} \u{433}\u{430}\u{43B}\u{435}\u{440}\u{435}\u{438} \u{441} \u{43F}\u{43E}\u{434}\u{43A}\u{43B}\u{44E}\u{447}\u{435}\u{43D}\u{43D}\u{43E}\u{439} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{43E}\u{439}.</li>
-          <li>\u{41F}\u{43E}\u{441}\u{43B}\u{435} \u{447}\u{435}\u{433}\u{43E} \u{432}\u{441}\u{442}\u{430}\u{432}\u{438}\u{442} \u{432}\u{441}\u{435} li \u{437}\u{430} \u{43E}\u{434}\u{43D}\u{443} \u{43E}\u{43F}\u{435}\u{440}\u{430}\u{446}\u{438}\u{44E} \u{432} \u{441}\u{43F}\u{438}\u{441}\u{43E}\u{43A} ul#ingredients.</li>
-          <li>\u{41A}\u{43E}\u{434} \u{43E}\u{442}\u{444}\u{43E}\u{440}\u{43C}\u{430}\u{442}\u{438}\u{440}\u{43E}\u{432}\u{430}\u{43D} Prettier</li>
-          <li><a href='03-promises.html'>\u{41F}\u{435}\u{440}\u{435}\u{439}\u{442}\u{438} \u{43D}\u{430} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{432}\u{44B}\u{43F}\u{43E}\u{43B}\u{43D}\u{435}\u{43D}\u{438}\u{44F} \u{437}\u{430}\u{434}\u{430}\u{43D}\u{438}\u{44F}</a></li>
-        </ul>`
-        ]
-    }
-];
-const buttons = document.querySelectorAll(".btn-resources");
-const tabContent = document.querySelector("#tab-content");
-buttons.forEach((el)=>el.addEventListener("click", handleClickTab));
-function handleClickTab(e) {
-    buttons.forEach((el, index)=>{
-        el.classList.remove("active");
-    });
-    e.target.classList.add("active");
-    tabContent.innerHTML = data[e.target.dataset.number].name;
+},{}],"fo3M4":[function(require,module,exports) {
+var _functions = require("./functions");
+const refs = {
+    timerId: "",
+    buttonStart: document.querySelector("button[data-start]"),
+    buttonStop: document.querySelector("button[data-stop]")
+};
+refs.buttonStart.addEventListener("click", startChangeColors);
+refs.buttonStop.addEventListener("click", stopChangeColors);
+// Запуск скрипта замены цвета фона
+function startChangeColors(e) {
+    refs.timerId = setInterval(()=>{
+        changeColor();
+    }, 1000);
+    refs.buttonStart.disabled = true;
+}
+// Остановка скрипта замены цвета фона
+function stopChangeColors() {
+    clearInterval(refs.timerId);
+    refs.buttonStart.disabled = false;
+}
+// Скрипт для замены цвета фона
+function changeColor() {
+    document.body.style.backgroundColor = (0, _functions.getRandomHexColor)();
 }
 
-},{}]},["b3anl","ebWYT"], "ebWYT", "parcelRequiree604")
+},{"./functions":"bEg5d"}],"bEg5d":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "getRandomHexColor", ()=>getRandomHexColor);
+function getRandomHexColor() {
+    return `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, 0)}`;
+}
 
-//# sourceMappingURL=index.739bf03c.js.map
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"j7FRh"}],"j7FRh":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}]},["6aY5a","fo3M4"], "fo3M4", "parcelRequiree604")
+
